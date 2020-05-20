@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: lightgreen;
+}
+
+.navbar-toggler {
+	visibility: hidden;
+}
+
+.nav-site {
+	font-weight: bold;
+	text-align: center;
+}
+
+#Chicken {
+	background-color: orange;
+}
+
+#Beef {
+	background-color: yellow;
+}
+
+#Sushi {
+	background-color: pink;
+}
+
+#Chicken, #Beef, #Sushi {
+	padding: 10px;
+}
+
+@media (max-width: 767px) {
+	.navbar-toggler {
+		visibility: visible;
+	}
+}
